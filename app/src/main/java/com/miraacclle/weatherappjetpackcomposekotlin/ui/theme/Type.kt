@@ -12,9 +12,9 @@ import com.miraacclle.weatherappjetpackcomposekotlin.R
 val ubuntuFont = FontFamily(listOf(
     Font(R.font.ubuntu)
 ))
-val russoFont = FontFamily(listOf(
-    Font(R.font.russo_one)
-))
+//val russoFont = FontFamily(listOf(
+//    Font(R.font.russo_one)
+//))
 val Typography = Typography(
     bodyLarge = TextStyle(
         fontFamily = ubuntuFont,
