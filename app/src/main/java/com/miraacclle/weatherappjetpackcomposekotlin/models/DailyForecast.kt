@@ -8,7 +8,7 @@ data class DailyForecast(
     @SerializedName("EpochDate")
     val epochDate: Long,
     @SerializedName("Temperature")
-    val temperature: Temperature?,
+    val temperature: Temperature,
     @SerializedName("Day")
     val day: WeatherState,
     @SerializedName("Night")

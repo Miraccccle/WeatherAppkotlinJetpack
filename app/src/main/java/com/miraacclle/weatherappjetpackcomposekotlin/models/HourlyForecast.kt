@@ -7,7 +7,7 @@ data class HourlyForecast(
     @SerializedName("DateTime")
     val dateTime: String,
     @SerializedName("EpochDateTime")
-    val epochDateTime: Int,
+    val epochDateTime: Long,
     @SerializedName("WeatherIcon")
     val weatherIcon: Int,
     @SerializedName("IconPhrase")
@@ -17,5 +17,5 @@ data class HourlyForecast(
     @SerializedName("HasPrecipitation")
     val hasPrecipitation: Boolean,
     @SerializedName("Temperature")
-    val temperature: Temperature
+    val temperature: Value
 )

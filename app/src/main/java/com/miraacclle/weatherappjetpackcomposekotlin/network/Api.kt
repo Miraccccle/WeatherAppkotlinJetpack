@@ -7,7 +7,7 @@ import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query
-const val APIKEY = "som"
+const val APIKEY = "APIKEY"
 
 interface Api {
     @GET("locations/v1/cities/search")
